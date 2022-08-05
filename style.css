@@ -12,28 +12,32 @@ main{
     color: rgb(254, 254, 254);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     height: 100vh;
-    padding:5rem;
     
+    display: flex;
+    flex-direction: row;
+
+}.desc{
+padding:5rem 10rem;
 }
-main>h1{
+.desc>h1{
     font-size: 3rem;
 }
-main > *{
+.desc > *{
     margin-top: 2rem;
 }
 
 .buy-now{
-    background-color: rgb(250, 72, 72);
+    background-color: rgb(231, 74, 74);
     color: rgb(255, 255, 255);
     padding: 0.5rem;
     border-radius: 1rem;
     width: 6rem;
     border: none;
-    
+    font-weight: 700;
 }
 .buy-now:hover{
     background-color: rgb(255, 255, 255);
-    color:  rgb(250, 72, 72);
+    color:  rgb(231, 74, 74);
 }
 .demos{
     background-color: transparent;
@@ -45,9 +49,27 @@ main > *{
 }
 .demos:hover{
    color: rgb(255, 255, 255);
-    background-color:  rgb(250, 72, 72);
+   background-color:  rgb(231, 74, 74);
 }
 
 .buy-now,.demos{
     cursor: pointer;
+}
+.social-media{
+    height: 8rem;
+    width: 2.5rem;
+    background-color:  rgb(231, 74, 74);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    justify-content: space-evenly;
+    position: fixed;
+    margin-top: 7rem;
+    margin-left: 5rem;
+}
+.social-media>*{
+    font-size: 1.5rem;
+    cursor: pointer;
+    /* margin: 0.8rem; */
 }
