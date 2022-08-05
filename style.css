@@ -29,6 +29,11 @@ main > *{
     border-radius: 1rem;
     width: 6rem;
     border: none;
+    
+}
+.buy-now:hover{
+    background-color: rgb(255, 255, 255);
+    color:  rgb(250, 72, 72);
 }
 .demos{
     background-color: transparent;
@@ -37,4 +42,12 @@ main > *{
     padding: 0.5rem;
     border-radius: 1rem;
     width: 6rem;
+}
+.demos:hover{
+   color: rgb(255, 255, 255);
+    background-color:  rgb(250, 72, 72);
+}
+
+.buy-now,.demos{
+    cursor: pointer;
 }
